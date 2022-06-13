@@ -8,4 +8,4 @@ const connection = async function () {
   console.log("Usando: " + conn.connection.host);
 };
 
-module.exports = connection;
+module.exports = {connection, mongoose};
